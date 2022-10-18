@@ -193,7 +193,8 @@ case_when(vector2 == "What am I?" ~ "I am the walrus",
           vector2 %in% c("A", "B") ~ "goo",
           vector2 == "C" ~ "ga",
           vector2 == "D" ~ "joob")
-
+?arrange
+arrange(.data = )
 
 #1. Can you calculate the species richness (e.g. the number of different species) in each quadrant?
 tree.sr.summary <- trees_long %>%                   # the data frame object that will be passed in the pipe
